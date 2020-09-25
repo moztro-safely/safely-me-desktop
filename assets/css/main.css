@@ -1,0 +1,166 @@
+body {
+    padding: 0 250px;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+.safely-logo {
+    background-size: cover;
+    width: 236px;
+    height: 64px;
+    margin-top: -30px;
+}
+
+.header-right > .menu-option {
+    height: 48px;
+    width: 54px;
+    color: #979797;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: -0.06px;
+    line-height: 19px;
+}
+
+.get-to-work-safely {
+    color: #CE0058;
+    font-family: "Helvetica Neue";
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -1.72px;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+
+.skip-the-doctor-sch {
+    width: 381px;
+    color: #4A4A4A;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 26px;
+    text-align: initial;
+}
+
+.get-the-app-for-i-pho {
+    height: 53px;
+    width: 381px;
+    color: #CE0058;
+    font-family: "Helvetica Neue";
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -0.11px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.doitsafely {
+    color: #CE0058;
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.11px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.fsc-cover {
+    height: 614px;
+    width: 280px;
+}
+    .fsc-cover.img-left { margin-right: -2px; }
+    .fsc-cover.img-right { margin-left: -3px; }
+
+.app-store {
+    text-align: center;
+}
+
+.images {
+    margin-top: 25px;
+}
+
+.images > span.separator {
+    width: 25px;
+}
+
+.app-store-img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-store-button {
+    width: 127px;
+    height: 39px;
+}
+
+.safely-social-icons {
+    height: 23px;
+    width: 136px;
+}
+
+.checkmark {
+    height: 28px;
+    width: 28px;
+}
+
+table {
+    margin: auto;
+}
+
+table > tbody {
+    vertical-align: top;
+}
+
+table > tbody > tr > td {
+    padding: 15px 0px 15px 10px;
+}
+
+*, ::after, ::before {
+    box-sizing: content-box;
+}
