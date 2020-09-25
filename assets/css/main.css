@@ -111,10 +111,8 @@ body {
 
 .fsc-cover {
     height: 614px;
-    width: 280px;
+    width: auto;
 }
-    .fsc-cover.img-left { margin-right: -2px; }
-    .fsc-cover.img-right { margin-left: -3px; }
 
 .app-store {
     text-align: center;
@@ -122,10 +120,6 @@ body {
 
 .images {
     margin-top: 25px;
-}
-
-.images > span.separator {
-    width: 25px;
 }
 
 .app-store-img {
@@ -139,9 +133,9 @@ body {
     height: 39px;
 }
 
-.safely-social-icons {
+.social-icon {
     height: 23px;
-    width: 136px;
+    width: 40px;
 }
 
 .checkmark {
