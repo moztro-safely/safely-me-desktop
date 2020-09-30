@@ -15,22 +15,43 @@
 
 <body>
     <div class="header">
-        <a href="#default" class="logo">
+        <a href="#default" class="logo float-left">
             <img src="assets/img/Safely Pink Logo.svg" class="safely-logo"/>
         </a>
-        <div class="header-right">
+        <div class="header-right d-none d-sm-block">
             <a class="active menu-option" href="#blog">BLOG</a>
             <a class="menu-option" href="#faq">FAQ</a>
             <a class="menu-option" href="#contact">CONTACT</a>
+        </div>
+        <div class="header-right d-block d-sm-none">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle-menu-options" aria-expanded="false">
+                <img class="navbar-toggle-menu" src="assets/img/menu.svg">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-toggle-menu-options">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#blog">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
         </div>
     </div>
     <div id="sections">
         <section id="get-to-work" class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                    <h1 class="get-to-work-safely ">get to work, safely</h1>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-12">
+                    <h1 class="get-to-work-safely">get to work, safely</h1>
     
-                    <table>
+                    <p class="skip-the-doctor-sch text-center d-block d-sm-none full-width">skip the doctor, schedule your PASS panel at over 30k labs quickly and easily in the app</p>
+
+                    <table class="d-none d-sm-block">
                         <tr>
                             <td><img class="checkmark" src="assets/img/section1/checkmark.svg" ></td>
                             <td><p class="skip-the-doctor-sch">skip the doctor, schedule your PASS panel at over 30k labs quickly and easily in the app</p></td>
@@ -45,15 +66,15 @@
                         </tr>
                     </table>
     
-                    <span class="get-the-app-for-i-pho">get the app for iPhone & Android</span>
+                    <span class="get-the-app-for-i-pho d-none d-sm-block">get the app for iPhone & Android</span>
                     
-                    <div class="images">
+                    <div class="images d-none d-sm-block">
                         <img class="img-left app-store-button" src="assets/img/apple app store.svg" />
                         <span>&nbsp;&nbsp;&nbsp;</span>
                         <img class="img-right app-store-button" src="assets/img/google play.svg" />
                     </div>
     
-                    <div class="images">
+                    <div class="images d-none d-sm-block margin-bottom-25">
                         <img class="social-icon" src="assets/img/facebook.svg" />
                         <img class="social-icon" src="assets/img/IG.svg" />
                         <img class="social-icon" src="assets/img/youtube.svg" />
@@ -63,9 +84,11 @@
                     </div>
     
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <div class="images">
                         <img class="fsc-cover" src="assets/img/section1/FSC cover copy.png" />
+
+                        <button class="btn download-the-app-now d-block d-sm-none margin-bottom-25" type="button">Download the app now</button>
                     </div>
                 </div>
             </div>
@@ -73,12 +96,12 @@
         <section id="how-it-works" class="gradient-bg padding-topbottom-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-12 d-none d-sm-block">
                         <div class="images">
                             <img class="fsc-cover" src="assets/img/section2/FSC appointment confirmed and provider.png" />
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                         <h1 class="how-it-works">how it works</h1>
         
                         <table class=" how-it-works table-td-align">
@@ -134,11 +157,11 @@
         </section>
         <section id="the-safer-sex-app" class="container padding-topbottom-100">
             <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-12">
                     <h1 class="get-to-work-safely ">the safer sex app</h1>
     
                     <div class="row">
-                        <div class="col-md-5 col-xs-12">
+                        <div class="col-md-5 col-12">
                             <table class="table-responsive table-td-align td-fixed-height">
                                 <tr>
                                     <td><img class="circle-checkmark" src="assets/img/section3/circle check.svg"></td>
@@ -169,7 +192,7 @@
                                 </tr>
                             </table>
                         </div>
-                        <div class="col-md-5 col-xs-12">
+                        <div class="col-md-5 col-12">
                             <table class="table-responsive table-td-align td-fixed-height">
                                 <tr>
                                     <td><img class="circle-checkmark" src="assets/img/section3/circle check.svg"></td>
@@ -202,15 +225,17 @@
                         </div>
                     </div>
     
-                    <span class="get-the-app-for-i-pho">whatever you’re into, do it safely.</span>
+                    <span class="get-the-app-for-i-pho d-none d-sm-block">whatever you’re into, do it safely.</span>
                     
-                    <div class="images">
+                    <div class="images d-none d-sm-block">
                         <img class="img-left app-store-button" src="assets/img/apple app store.svg" />
                         <span>&nbsp;&nbsp;&nbsp;</span>
                         <img class="img-right app-store-button" src="assets/img/google play.svg" />
                     </div>
+
+                    <button class="btn download-the-app-now d-block d-sm-none" type="button">Download the app now</button>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 d-none d-sm-block">
                     <div class="images">
                         <img class="fsc-cover" src="assets/img/section3/fsc status screen.png" />
                     </div>
@@ -233,7 +258,7 @@
         <section id="about-us" class="padding-topbottom-50 black-bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 col-lg-5 col-sm-5 col-xs-12 about-us-the-safely">
+                    <div class="col-md-5 col-lg-5 col-sm-5 col-12 about-us-the-safely">
                         <span class="about-us-title">About Us</span>
                         <br /><br />
                         <p>
@@ -254,11 +279,12 @@
                             <img class="social-icon" src="assets/img/twitter.svg" />
                         </div>
                     </div>
-                    <div class="offset-md-3 offset-lg-3 offset-sm-3 col-md-3 col-lg-3 col-sm-3 col-xs-12 about-us-the-safely">
+                    <div class="offset-md-3 offset-lg-3 offset-sm-3 col-md-3 col-lg-3 col-sm-3 col-12 about-us-the-safely">
+                        <div class="d-block d-sm-none height-75"></div>
                         <span class="about-us-title">Newsletter</span>
                         <br /><br />
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control email-field">
+                            <input type="text" class="form-control email-field" placeholder="Email">
                             <div class="input-group-append">
                               <button class="btn btn-send-email" type="button">
                                 <img src="assets/img/section4/telegram.svg">
